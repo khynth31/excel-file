@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Excel Table</title>
+</head>
+
+<body>
+
+  <table border="1">
+    <tr>
+      <th>#</th>
+      <th>Date</th>
+      <th>Member Information</th>
+      <th>Concern</th>
+      <th>Resolution</th>
+      <th>Status</th>
+      <th>A4ME</th>
+    </tr>
+
+    <!-- Sample row, you can copy this row structure infinitely -->
+    <tr>
+      <td>1</td>
+      <td><input type="date" /></td>
+      <td>
+        <input type="text" placeholder="Name" /><br>
+        <input type="text" placeholder="Member ID" /><br>
+        <input type="tel" placeholder="Callback Number" /><br>
+        <input type="number" placeholder="Age" /><br>
+        <input type="text" placeholder="Address" />
+      </td>
+      <td><textarea></textarea></td>
+      <td><textarea></textarea></td>
+      <td>
+        <select>
+          <option value="Member Released">Member Released</option>
+          <option value="User Released">User Released</option>
+          <option value="Transferred">Transferred</option>
+        </select>
+      </td>
+      <td>
+        <select>
+          <option value="Yes">Yes</option>
+          <option value="No">No</option>
+        </select>
+      </td>
+    </tr>
+
+    <!-- You can copy this row structure infinitely -->
+
+  </table>
+
+</body>
+
+</html>
